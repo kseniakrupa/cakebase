@@ -1,0 +1,880 @@
+[
+  {
+    "id": "R01",
+    "name": "Классификация многослойного бисквитного торта",
+    "mode": "domain",
+    "description": "Классификация многослойного бисквитного торта",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasBase",
+        "object": "?base"
+      },
+      {
+        "subject": "?base",
+        "predicate": "hasTexture",
+        "object": "texture:airy"
+      },
+      {
+        "subject": "?base",
+        "predicate": "suitableFor",
+        "object": "goal:sponge"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasCream",
+        "object": "?cream"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasLayerCount",
+        "object": "?n",
+        "operator": "gte",
+        "value": 2
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "isA",
+        "object": "type:layered-sponge-cake",
+        "confidence": 0.9
+      }
+    ],
+    "explanation": "Если у торта воздушная основа, есть крем и не менее двух слоёв, он классифицируется как многослойный бисквитный.",
+    "confidence": 0.86
+  },
+  {
+    "id": "R02",
+    "name": "Классификация муссового торта",
+    "mode": "domain",
+    "description": "Классификация муссового торта",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasCream",
+        "object": "cream:mousse"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "usesTechnique",
+        "object": "technique:stabilization"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "isA",
+        "object": "type:mousse-cake",
+        "confidence": 0.92
+      }
+    ],
+    "explanation": "Если основа формы торта — мусс и используется стабилизация, торт классифицируется как муссовый.",
+    "confidence": 0.9
+  },
+  {
+    "id": "R03",
+    "name": "Классификация чизкейка",
+    "mode": "domain",
+    "description": "Классификация чизкейка",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasBase",
+        "object": "base:cheesecake-base"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "isA",
+        "object": "type:cheesecake",
+        "confidence": 0.9
+      }
+    ],
+    "explanation": "Если торт имеет основу чизкейка, он относится к типу «чизкейк».",
+    "confidence": 0.88
+  },
+  {
+    "id": "R04",
+    "name": "Классификация торта без выпечки",
+    "mode": "domain",
+    "description": "Классификация торта без выпечки",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasPreparationMode",
+        "object": "mode:no-bake"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "isA",
+        "object": "type:no-bake-cake",
+        "confidence": 0.95
+      }
+    ],
+    "explanation": "Если торт не требует выпечки и стабилизируется охлаждением, он относится к тортам без выпечки.",
+    "confidence": 0.94
+  },
+  {
+    "id": "R05",
+    "name": "Совместимость шоколада и ягод",
+    "mode": "domain",
+    "description": "Совместимость шоколада и ягод",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasFlavor",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFilling",
+        "object": "filling:berry"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "flavor:chocolate",
+        "predicate": "compatibleWith",
+        "object": "filling:berry",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Если в торте уже сочетаются шоколад и ягоды, эта пара считается совместимой.",
+    "confidence": 0.8
+  },
+  {
+    "id": "R06",
+    "name": "Совместимость шоколада и вишни",
+    "mode": "domain",
+    "description": "Совместимость шоколада и вишни",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasFlavor",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFilling",
+        "object": "filling:cherry"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "flavor:chocolate",
+        "predicate": "compatibleWith",
+        "object": "filling:cherry",
+        "confidence": 0.82
+      }
+    ],
+    "explanation": "Если в торте уже сочетаются шоколад и вишня, эта пара считается совместимой.",
+    "confidence": 0.82
+  },
+  {
+    "id": "R07",
+    "name": "Совместимость карамели и орехов",
+    "mode": "domain",
+    "description": "Совместимость карамели и орехов",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasFlavor",
+        "object": "flavor:caramel"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFilling",
+        "object": "filling:nut"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "flavor:caramel",
+        "predicate": "compatibleWith",
+        "object": "filling:nut",
+        "confidence": 0.85
+      }
+    ],
+    "explanation": "Если в торте уже сочетаются карамель и орехи, эта пара считается совместимой.",
+    "confidence": 0.85
+  },
+  {
+    "id": "R08",
+    "name": "Мусс требует стабилизации",
+    "mode": "domain",
+    "description": "Мусс требует стабилизации",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasCream",
+        "object": "cream:mousse"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "requiresTechnique",
+        "object": "technique:stabilization",
+        "confidence": 0.85
+      }
+    ],
+    "explanation": "Если крем в торте — мусс, для удержания формы нужна стабилизация и охлаждение.",
+    "confidence": 0.85
+  },
+  {
+    "id": "Q01",
+    "name": "Подбор крема для выравнивания",
+    "mode": "query",
+    "description": "Подбор крема для выравнивания",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "coverage"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "suitableFor",
+        "object": "goal:leveling"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasTexture",
+        "object": "texture:stable"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.85
+      }
+    ],
+    "explanation": "Запрос определён как покрытие/выравнивание. Найдены кремы, пригодные для выравнивания и обладающие стабильной текстурой.",
+    "confidence": 0.85
+  },
+  {
+    "id": "Q02",
+    "name": "Подбор техники гладкой поверхности",
+    "mode": "query",
+    "description": "Подбор техники гладкой поверхности",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasGoal",
+        "object": "goal:smooth-surface"
+      },
+      {
+        "subject": "?technique",
+        "predicate": "suitableFor",
+        "object": "goal:smooth-surface"
+      },
+      {
+        "subject": "?technique",
+        "predicate": "hasType",
+        "object": "type:Technique"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?technique",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Цель запроса — гладкая поверхность. Найдены техники, подходящие для выравнивания и финишного покрытия.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q03",
+    "name": "Возможные причины проблемы",
+    "mode": "query",
+    "description": "Возможные причины проблемы",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasProblem",
+        "object": "?problem"
+      },
+      {
+        "subject": "?problem",
+        "predicate": "hasCause",
+        "object": "?cause"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "possibleCause",
+        "object": "?cause",
+        "confidence": 0.7
+      }
+    ],
+    "explanation": "В запросе распознана проблема. Найдены причины, которые могут приводить к такой проблеме; это предположение, а не точный диагноз.",
+    "confidence": 0.7
+  },
+  {
+    "id": "Q04",
+    "name": "Способы решения проблемы",
+    "mode": "query",
+    "description": "Способы решения проблемы",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasProblem",
+        "object": "?problem"
+      },
+      {
+        "subject": "?problem",
+        "predicate": "solvedBy",
+        "object": "?solution"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?solution",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Для распознанной проблемы найдены способы решения из базы знаний.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q05",
+    "name": "Статьи по проблеме",
+    "mode": "query",
+    "description": "Статьи по проблеме",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasProblem",
+        "object": "?problem"
+      },
+      {
+        "subject": "?problem",
+        "predicate": "relatedArticle",
+        "object": "?article"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?article",
+        "confidence": 0.75
+      }
+    ],
+    "explanation": "К найденной проблеме привязаны статьи с разбором причин и решений.",
+    "confidence": 0.75
+  },
+  {
+    "id": "Q06",
+    "name": "Замена ингредиента",
+    "mode": "query",
+    "description": "Замена ингредиента",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasTarget",
+        "object": "?target"
+      },
+      {
+        "subject": "?target",
+        "predicate": "hasAlternative",
+        "object": "?alternative"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?alternative",
+        "confidence": 0.75
+      }
+    ],
+    "explanation": "В запросе запрошена замена компонента. Найдены альтернативы, связанные отношением hasAlternative.",
+    "confidence": 0.75
+  },
+  {
+    "id": "Q07",
+    "name": "Крем для шоколадного вкуса",
+    "mode": "query",
+    "description": "Крем для шоколадного вкуса",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "compatibleWith",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Вкус запроса — шоколадный. Найдены кремы, совместимые с шоколадом.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q08",
+    "name": "Крем для ягодного вкуса",
+    "mode": "query",
+    "description": "Крем для ягодного вкуса",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "flavor:berry"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "compatibleWith",
+        "object": "flavor:berry"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Вкус запроса — ягодный. Найдены кремы, совместимые с ягодами.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q09",
+    "name": "Техника для муссового торта",
+    "mode": "query",
+    "description": "Техника для муссового торта",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "mousse"
+      },
+      {
+        "subject": "?technique",
+        "predicate": "suitableFor",
+        "object": "goal:mousse"
+      },
+      {
+        "subject": "?technique",
+        "predicate": "hasType",
+        "object": "type:Technique"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?technique",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Запрос относится к муссовому торту. Найдены техники стабилизации мусса.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q10",
+    "name": "Основа для влажного торта",
+    "mode": "query",
+    "description": "Основа для влажного торта",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasGoal",
+        "object": "goal:moist"
+      },
+      {
+        "subject": "?base",
+        "predicate": "hasTexture",
+        "object": "texture:moist"
+      },
+      {
+        "subject": "?base",
+        "predicate": "suitableFor",
+        "object": "goal:cake"
+      },
+      {
+        "subject": "?base",
+        "predicate": "hasType",
+        "object": "type:Base"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?base",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Цель запроса — влажная текстура. Найдены основы с влажной текстурой, подходящие для торта.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q11",
+    "name": "Начинка к шоколадному вкусу",
+    "mode": "query",
+    "description": "Начинка к шоколадному вкусу",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?filling",
+        "predicate": "compatibleWith",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?filling",
+        "predicate": "hasType",
+        "object": "type:Filling"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?filling",
+        "confidence": 0.78
+      }
+    ],
+    "explanation": "Вкус запроса — шоколадный. Найдены начинки, совместимые с шоколадом.",
+    "confidence": 0.78
+  },
+  {
+    "id": "Q12",
+    "name": "Рецепт без сложного декора",
+    "mode": "query",
+    "description": "Рецепт без сложного декора",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "recipe"
+      },
+      {
+        "subject": "query",
+        "predicate": "hasConstraint",
+        "object": "constraint:no-complex-decor"
+      },
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "?flavor"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasType",
+        "object": "type:Cake"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFlavor",
+        "object": "?flavor"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasDecorationComplexity",
+        "object": "low"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cake",
+        "confidence": 0.85
+      }
+    ],
+    "explanation": "Запрос просит рецепт без сложного декора. Отобраны торты с совпадающим вкусом и низкой сложностью декора.",
+    "confidence": 0.85
+  },
+  {
+    "id": "Q13",
+    "name": "Крем для покрытия шоколадного торта",
+    "mode": "query",
+    "description": "Крем для покрытия шоколадного торта",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "coverage"
+      },
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "suitableFor",
+        "object": "goal:leveling"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "compatibleWith",
+        "object": "flavor:chocolate"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.92
+      }
+    ],
+    "explanation": "Нужно покрыть шоколадный торт с ровной поверхностью. Найдены кремы одновременно пригодные для выравнивания и совместимые с шоколадом.",
+    "confidence": 0.92
+  },
+  {
+    "id": "Q14",
+    "name": "Стабильный крем вместо жидкого",
+    "mode": "query",
+    "description": "Стабильный крем вместо жидкого",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasProblem",
+        "object": "problem:liquid-cream"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "suitableFor",
+        "object": "goal:filling"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasTexture",
+        "object": "texture:stable"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.72
+      }
+    ],
+    "explanation": "Крем не держит форму. В качестве более стабильной альтернативы предложены кремы, подходящие для прослойки.",
+    "confidence": 0.72
+  },
+  {
+    "id": "Q15",
+    "name": "Крем для кремовой текстуры",
+    "mode": "query",
+    "description": "Крем для кремовой текстуры",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasGoal",
+        "object": "goal:creamy"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasTexture",
+        "object": "texture:creamy"
+      },
+      {
+        "subject": "?cream",
+        "predicate": "hasType",
+        "object": "type:Cream"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cream",
+        "confidence": 0.72
+      }
+    ],
+    "explanation": "Цель запроса — кремовая текстура. Найдены кремы с кремовой текстурой.",
+    "confidence": 0.72
+  },
+  {
+    "id": "Q16",
+    "name": "Рецепт с карамелью и орехами",
+    "mode": "query",
+    "description": "Рецепт с карамелью и орехами",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "recipe"
+      },
+      {
+        "subject": "query",
+        "predicate": "hasFlavor",
+        "object": "flavor:caramel"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFlavor",
+        "object": "flavor:caramel"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasFilling",
+        "object": "filling:nut"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasDecorationComplexity",
+        "object": "low"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasType",
+        "object": "type:Cake"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?cake",
+        "confidence": 0.88
+      }
+    ],
+    "explanation": "Запрос просит рецепт с карамелью и орехами без сложного декора. Найден торт, у которого совпадают вкус, начинка и низкая сложность декора.",
+    "confidence": 0.88
+  },
+  {
+    "id": "Q17",
+    "name": "Основа для муссового торта",
+    "mode": "query",
+    "description": "Основа для муссового торта",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasIntent",
+        "object": "mousse"
+      },
+      {
+        "subject": "?base",
+        "predicate": "suitableFor",
+        "object": "goal:mousse"
+      },
+      {
+        "subject": "?base",
+        "predicate": "hasType",
+        "object": "type:Base"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?base",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Для муссового торта найдены основы, которые подходят для сборки мусса.",
+    "confidence": 0.8
+  },
+  {
+    "id": "Q18",
+    "name": "Замена сливочного сыра",
+    "mode": "query",
+    "description": "Замена сливочного сыра",
+    "conditions": [
+      {
+        "subject": "query",
+        "predicate": "hasTarget",
+        "object": "cream:cream-cheese"
+      },
+      {
+        "subject": "cream:cream-cheese",
+        "predicate": "hasAlternative",
+        "object": "?alternative"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "query",
+        "predicate": "recommendation",
+        "object": "?alternative",
+        "confidence": 0.82
+      }
+    ],
+    "explanation": "Запрошена замена сливочного сыра. Найдены альтернативы с указанием вкусовых и текстурных отличий.",
+    "confidence": 0.82
+  },
+  {
+    "id": "R03b",
+    "name": "Классификация чизкейка по составу",
+    "mode": "domain",
+    "description": "Торт на основе из печенья с кремом из сливочного сыра классифицируется как чизкейк.",
+    "conditions": [
+      {
+        "subject": "?cake",
+        "predicate": "hasBase",
+        "object": "base:cookie-base"
+      },
+      {
+        "subject": "?cake",
+        "predicate": "hasCream",
+        "object": "cream:cream-cheese"
+      }
+    ],
+    "conclusions": [
+      {
+        "subject": "?cake",
+        "predicate": "isA",
+        "object": "type:cheesecake",
+        "confidence": 0.8
+      }
+    ],
+    "explanation": "Если основа из печенья сочетается с кремом из сливочного сыра, изделие относится к чизкейкам.",
+    "confidence": 0.8
+  }
+]

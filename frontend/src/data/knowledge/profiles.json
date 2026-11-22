@@ -1,0 +1,1166 @@
+[
+  {
+    "cakeId": "medovik",
+    "bases": [
+      "base:honey-layers"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:honey"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:layered"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:soaking",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 8,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "napoleon",
+    "bases": [
+      "base:puff-pastry"
+    ],
+    "creams": [
+      "cream:custard"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:crispy",
+      "texture:layered"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 12,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "tiramisu",
+    "bases": [
+      "base:ladyfingers"
+    ],
+    "creams": [
+      "cream:mascarpone"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:coffee",
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:creamy",
+      "texture:airy"
+    ],
+    "techniques": [
+      "technique:assembly",
+      "technique:cooling",
+      "technique:soaking"
+    ],
+    "decorations": [
+      "decor:cocoa"
+    ],
+    "layerCount": 4,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "new-york-cheesecake",
+    "bases": [
+      "base:cheesecake-base"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 1,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "red-velvet",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:airy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:leveling"
+    ],
+    "decorations": [
+      "decor:cream"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "chocolate-ganache",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:ganache"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:dense"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "praga",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:buttercream"
+    ],
+    "fillings": [
+      "filling:apricot"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 4,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "kievsky",
+    "bases": [
+      "base:nut-meringue"
+    ],
+    "creams": [
+      "cream:buttercream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:nut"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:crispy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "bird-milk",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:meringue-cream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:stabilization",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "truffle",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:ganache"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:assembly",
+      "technique:cooling",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:cocoa"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "carrot",
+    "bases": [
+      "base:carrot-sponge"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:nut",
+      "flavor:caramel"
+    ],
+    "textures": [
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "lemon",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:citrus-curd"
+    ],
+    "flavors": [
+      "flavor:citrus"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "pistachio-raspberry",
+    "bases": [
+      "base:almond-joconde"
+    ],
+    "creams": [
+      "cream:mousse"
+    ],
+    "fillings": [
+      "filling:raspberry"
+    ],
+    "flavors": [
+      "flavor:pistachio",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:stabilization",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "triple-chocolate",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:mousse"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:stabilization",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "pavlova",
+    "bases": [
+      "base:meringue"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:berry"
+    ],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:crispy",
+      "texture:airy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 1,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "smetannik",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:airy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "sacher",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:ganache"
+    ],
+    "fillings": [
+      "filling:apricot"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:glazing",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "dobos",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:buttercream"
+    ],
+    "fillings": [
+      "filling:caramel"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:caramel"
+    ],
+    "textures": [
+      "texture:layered"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:caramel"
+    ],
+    "layerCount": 6,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "opera",
+    "bases": [
+      "base:almond-joconde"
+    ],
+    "creams": [
+      "cream:coffee-cream"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:coffee",
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:layered"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:soaking",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 6,
+    "decorationComplexity": "high"
+  },
+  {
+    "cakeId": "fraisier",
+    "bases": [
+      "base:almond-joconde"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:strawberry"
+    ],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:creamy",
+      "texture:airy"
+    ],
+    "techniques": [
+      "technique:assembly",
+      "technique:cooling",
+      "technique:stabilization"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "brownie",
+    "bases": [
+      "base:brownie-base"
+    ],
+    "creams": [
+      "cream:ganache"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "no-bake-cheesecake",
+    "bases": [
+      "base:cookie-base"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [
+      "filling:berry"
+    ],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:stabilization",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 1,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "strawberry-shortcake",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:strawberry"
+    ],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:soaking"
+    ],
+    "decorations": [
+      "decor:berries"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "black-forest",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:cherry"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:soaking",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate",
+      "decor:berries"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "milk-girl",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:layered"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 6,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "damskie-palchiki",
+    "bases": [
+      "base:choux"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [
+      "filling:cherry"
+    ],
+    "flavors": [
+      "flavor:vanilla",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "grafskie-razvaliny",
+    "bases": [
+      "base:meringue",
+      "base:shortcrust"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:nut"
+    ],
+    "textures": [
+      "texture:crispy",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate",
+      "decor:nuts"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "cherepakha",
+    "bases": [
+      "base:cookie-base"
+    ],
+    "creams": [
+      "cream:condensed-cream"
+    ],
+    "fillings": [
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:chocolate"
+    ],
+    "textures": [
+      "texture:dense"
+    ],
+    "techniques": [
+      "technique:assembly",
+      "technique:cooling"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 1,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "muraveynik",
+    "bases": [
+      "base:shortcrust"
+    ],
+    "creams": [
+      "cream:condensed-cream"
+    ],
+    "fillings": [
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:nut"
+    ],
+    "textures": [
+      "texture:crumbly",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:chocolate"
+    ],
+    "layerCount": 1,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "zebra",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:cocoa"
+    ],
+    "layerCount": 2,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "pancho",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [
+      "filling:banana",
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:banana"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:nuts",
+      "decor:chocolate"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "black-prince",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:sour-cream"
+    ],
+    "fillings": [
+      "filling:cherry"
+    ],
+    "flavors": [
+      "flavor:chocolate",
+      "flavor:berry"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:dense"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly",
+      "technique:glazing"
+    ],
+    "decorations": [
+      "decor:chocolate",
+      "decor:berries"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "basque-cheesecake",
+    "bases": [
+      "base:cheesecake-base"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:creamy",
+      "texture:dense"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling"
+    ],
+    "decorations": [],
+    "layerCount": 1,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "coconut-cake",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:airy",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:cream"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "orange-cake",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [
+      "filling:citrus-curd"
+    ],
+    "flavors": [
+      "flavor:citrus"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:soft"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:soaking"
+    ],
+    "decorations": [
+      "decor:cream"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "banana-cake",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:cream-cheese"
+    ],
+    "fillings": [
+      "filling:banana"
+    ],
+    "flavors": [
+      "flavor:banana"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:soft"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "low"
+  },
+  {
+    "cakeId": "nut-cake",
+    "bases": [
+      "base:almond-joconde"
+    ],
+    "creams": [
+      "cream:buttercream"
+    ],
+    "fillings": [
+      "filling:nut"
+    ],
+    "flavors": [
+      "flavor:nut"
+    ],
+    "textures": [
+      "texture:dense",
+      "texture:moist"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:nuts",
+      "decor:chocolate"
+    ],
+    "layerCount": 4,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "caramel-cake",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:buttercream"
+    ],
+    "fillings": [
+      "filling:caramel"
+    ],
+    "flavors": [
+      "flavor:caramel"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:creamy"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:cooling",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:caramel"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "mocha-cake",
+    "bases": [
+      "base:chocolate-sponge"
+    ],
+    "creams": [
+      "cream:coffee-cream"
+    ],
+    "fillings": [
+      "filling:chocolate"
+    ],
+    "flavors": [
+      "flavor:coffee"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:dense"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:soaking",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:cocoa"
+    ],
+    "layerCount": 4,
+    "decorationComplexity": "medium"
+  },
+  {
+    "cakeId": "apricot-cake",
+    "bases": [
+      "base:classic-sponge"
+    ],
+    "creams": [
+      "cream:chantilly"
+    ],
+    "fillings": [
+      "filling:apricot"
+    ],
+    "flavors": [
+      "flavor:vanilla"
+    ],
+    "textures": [
+      "texture:moist",
+      "texture:soft"
+    ],
+    "techniques": [
+      "technique:baking",
+      "technique:soaking",
+      "technique:assembly"
+    ],
+    "decorations": [
+      "decor:cream"
+    ],
+    "layerCount": 3,
+    "decorationComplexity": "low"
+  }
+]

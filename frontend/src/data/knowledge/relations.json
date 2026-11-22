@@ -1,0 +1,1899 @@
+[
+  {
+    "subject": "base:classic-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:classic-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:classic-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:chocolate-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:chocolate-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:chocolate-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:honey-layers",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:honey-layers",
+    "predicate": "hasTexture",
+    "object": "texture:layered",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:honey-layers",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:puff-pastry",
+    "predicate": "hasTexture",
+    "object": "texture:crispy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:puff-pastry",
+    "predicate": "hasTexture",
+    "object": "texture:layered",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:puff-pastry",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:shortcrust",
+    "predicate": "hasTexture",
+    "object": "texture:crumbly",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:shortcrust",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:choux",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:choux",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:choux",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:meringue",
+    "predicate": "hasTexture",
+    "object": "texture:crispy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:meringue",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:meringue",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:cheesecake-base",
+    "predicate": "hasTexture",
+    "object": "texture:crumbly",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:cheesecake-base",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:cookie-base",
+    "predicate": "hasTexture",
+    "object": "texture:crumbly",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:cookie-base",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:almond-joconde",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:almond-joconde",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:almond-joconde",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:ladyfingers",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:ladyfingers",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:ladyfingers",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:brownie-base",
+    "predicate": "hasTexture",
+    "object": "texture:dense",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:brownie-base",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:brownie-base",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:nut-meringue",
+    "predicate": "hasTexture",
+    "object": "texture:crispy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:nut-meringue",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:nut-meringue",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:carrot-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:carrot-sponge",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:carrot-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:almond-joconde",
+    "predicate": "suitableFor",
+    "object": "goal:mousse",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:classic-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:mousse",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "base:chocolate-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:mousse",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "hasTexture",
+    "object": "texture:stable",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "suitableFor",
+    "object": "goal:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "suitableFor",
+    "object": "goal:piping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "suitableFor",
+    "object": "goal:coating",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "compatibleWith",
+    "object": "flavor:citrus",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "hasTexture",
+    "object": "texture:stable",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "suitableFor",
+    "object": "goal:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "suitableFor",
+    "object": "goal:piping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "suitableFor",
+    "object": "goal:decoration",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:buttercream",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:custard",
+    "predicate": "compatibleWith",
+    "object": "flavor:fruit",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "hasTexture",
+    "object": "texture:stable",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "suitableFor",
+    "object": "goal:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "suitableFor",
+    "object": "goal:glazing",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "suitableFor",
+    "object": "goal:coating",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "suitableFor",
+    "object": "goal:topping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "compatibleWith",
+    "object": "flavor:coffee",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "hasTexture",
+    "object": "texture:stable",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "suitableFor",
+    "object": "goal:decoration",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "suitableFor",
+    "object": "goal:topping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:citrus",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:meringue-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "suitableFor",
+    "object": "goal:coating",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:honey",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "hasTexture",
+    "object": "texture:soft",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:condensed-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:banana",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "hasTexture",
+    "object": "texture:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "suitableFor",
+    "object": "goal:mousse",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "compatibleWith",
+    "object": "flavor:pistachio",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mousse",
+    "predicate": "compatibleWith",
+    "object": "flavor:coffee",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "hasTexture",
+    "object": "texture:creamy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "hasTexture",
+    "object": "texture:stable",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "suitableFor",
+    "object": "goal:filling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "suitableFor",
+    "object": "goal:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:coffee",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:coffee-cream",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:berry",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:berry",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:berry",
+    "predicate": "compatibleWith",
+    "object": "flavor:citrus",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:berry",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:cherry",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:cherry",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:cherry",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:strawberry",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:strawberry",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:strawberry",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:raspberry",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:raspberry",
+    "predicate": "compatibleWith",
+    "object": "flavor:pistachio",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:raspberry",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:raspberry",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:citrus-curd",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:citrus-curd",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:citrus-curd",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:caramel",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:caramel",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:caramel",
+    "predicate": "compatibleWith",
+    "object": "flavor:banana",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:caramel",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:chocolate",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:chocolate",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:chocolate",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:chocolate",
+    "predicate": "compatibleWith",
+    "object": "flavor:berry",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:chocolate",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:nut",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:nut",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:nut",
+    "predicate": "compatibleWith",
+    "object": "flavor:banana",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:nut",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:banana",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:banana",
+    "predicate": "compatibleWith",
+    "object": "flavor:nut",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:banana",
+    "predicate": "compatibleWith",
+    "object": "flavor:caramel",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:banana",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:apricot",
+    "predicate": "compatibleWith",
+    "object": "flavor:vanilla",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:apricot",
+    "predicate": "compatibleWith",
+    "object": "flavor:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "filling:apricot",
+    "predicate": "hasTexture",
+    "object": "texture:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:leveling",
+    "predicate": "suitableFor",
+    "object": "goal:smooth-surface",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:leveling",
+    "predicate": "suitableFor",
+    "object": "goal:coverage",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:leveling",
+    "predicate": "requiresEquipment",
+    "object": "eq:spatula",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:leveling",
+    "predicate": "requiresEquipment",
+    "object": "eq:ring",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:coating",
+    "predicate": "suitableFor",
+    "object": "goal:coverage",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:coating",
+    "predicate": "requiresEquipment",
+    "object": "eq:spatula",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:glazing",
+    "predicate": "suitableFor",
+    "object": "goal:smooth-surface",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:glazing",
+    "predicate": "suitableFor",
+    "object": "goal:glossy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:glazing",
+    "predicate": "requiresEquipment",
+    "object": "eq:thermometer",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:stabilization",
+    "predicate": "suitableFor",
+    "object": "goal:mousse",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:stabilization",
+    "predicate": "suitableFor",
+    "object": "goal:hold-shape",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:stabilization",
+    "predicate": "suitableFor",
+    "object": "goal:stability",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:tempering",
+    "predicate": "suitableFor",
+    "object": "goal:glossy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:tempering",
+    "predicate": "suitableFor",
+    "object": "goal:chocolate",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:tempering",
+    "predicate": "requiresEquipment",
+    "object": "eq:thermometer",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:whipping",
+    "predicate": "suitableFor",
+    "object": "goal:airy",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:whipping",
+    "predicate": "requiresEquipment",
+    "object": "eq:mixer",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:soaking",
+    "predicate": "suitableFor",
+    "object": "goal:moist",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:baking",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:cooling",
+    "predicate": "suitableFor",
+    "object": "goal:hold-shape",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:cooling",
+    "predicate": "suitableFor",
+    "object": "goal:stability",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:assembly",
+    "predicate": "suitableFor",
+    "object": "goal:cake",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "technique:assembly",
+    "predicate": "requiresEquipment",
+    "object": "eq:ring",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "hasAlternative",
+    "object": "cream:mascarpone",
+    "confidence": 0.65,
+    "source": "domain",
+    "note": "Близкая сливочная текстура, но меньше плотности."
+  },
+  {
+    "subject": "cream:cream-cheese",
+    "predicate": "hasAlternative",
+    "object": "ingredient:ricotta",
+    "confidence": 0.55,
+    "source": "domain",
+    "note": "Только для нежных кремов; рикотта более влажная."
+  },
+  {
+    "subject": "cream:sour-cream",
+    "predicate": "hasAlternative",
+    "object": "cream:mascarpone",
+    "confidence": 0.6,
+    "source": "domain",
+    "note": "Для прослойки, но вкус будет менее кислым."
+  },
+  {
+    "subject": "cream:ganache",
+    "predicate": "hasAlternative",
+    "object": "filling:chocolate",
+    "confidence": 0.7,
+    "source": "domain",
+    "note": "Шоколадная начинка вместо плотного ганаша."
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "hasCause",
+    "object": "cause:underbaking",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "hasCause",
+    "object": "cause:overmixing",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "hasCause",
+    "object": "cause:fast-cooling",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "solvedBy",
+    "object": "solution:no-open-oven",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "solvedBy",
+    "object": "solution:fold",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "solvedBy",
+    "object": "solution:low-speed",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:sunken-sponge",
+    "predicate": "relatedArticle",
+    "object": "article:kak-prigotovit-biskvit",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "hasCause",
+    "object": "cause:overbaking",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "hasCause",
+    "object": "cause:excess-liquid",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "solvedBy",
+    "object": "solution:soak",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "solvedBy",
+    "object": "solution:low-speed",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "relatedArticle",
+    "object": "article:kak-prigotovit-biskvit",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:dry-sponge",
+    "predicate": "relatedArticle",
+    "object": "article:kak-hranit-tort",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "hasCause",
+    "object": "cause:temperature",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "hasCause",
+    "object": "cause:overwhipping",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "hasCause",
+    "object": "cause:excess-liquid",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "solvedBy",
+    "object": "solution:chill",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "solvedBy",
+    "object": "solution:stabilize",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "solvedBy",
+    "object": "solution:drain",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "relatedArticle",
+    "object": "article:vidy-kremov",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:liquid-cream",
+    "predicate": "relatedArticle",
+    "object": "article:kak-vyrovnyat-tort",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:split-cream",
+    "predicate": "hasCause",
+    "object": "cause:temperature",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:split-cream",
+    "predicate": "hasCause",
+    "object": "cause:overwhipping",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:split-cream",
+    "predicate": "solvedBy",
+    "object": "solution:temper-ingredients",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:split-cream",
+    "predicate": "solvedBy",
+    "object": "solution:chill",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:split-cream",
+    "predicate": "relatedArticle",
+    "object": "article:vidy-kremov",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "hasCause",
+    "object": "cause:overbaking",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "hasCause",
+    "object": "cause:fast-cooling",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "hasCause",
+    "object": "cause:overmixing",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "solvedBy",
+    "object": "solution:water-bath",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "solvedBy",
+    "object": "solution:slow-cooling",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "solvedBy",
+    "object": "solution:low-speed",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:cracks-cheesecake",
+    "predicate": "relatedArticle",
+    "object": "article:chizkejk-oshibki",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:uneven-surface",
+    "predicate": "hasCause",
+    "object": "cause:temperature",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:uneven-surface",
+    "predicate": "hasCause",
+    "object": "cause:excess-liquid",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:uneven-surface",
+    "predicate": "solvedBy",
+    "object": "solution:chill",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:uneven-surface",
+    "predicate": "solvedBy",
+    "object": "solution:crumb-coat",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:uneven-surface",
+    "predicate": "relatedArticle",
+    "object": "article:kak-vyrovnyat-tort",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "hasCause",
+    "object": "cause:insufficient-gelatin",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "hasCause",
+    "object": "cause:excess-liquid",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "solvedBy",
+    "object": "solution:stabilize",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "solvedBy",
+    "object": "solution:drain",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "relatedArticle",
+    "object": "article:yagody-v-torte",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:unstable-filling",
+    "predicate": "relatedArticle",
+    "object": "article:mussovye-torty",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "hasCause",
+    "object": "cause:overwhipping",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "hasCause",
+    "object": "cause:temperature",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "hasCause",
+    "object": "cause:insufficient-gelatin",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "solvedBy",
+    "object": "solution:fold",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "solvedBy",
+    "object": "solution:stabilize",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "solvedBy",
+    "object": "solution:temper-ingredients",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:mousse-texture",
+    "predicate": "relatedArticle",
+    "object": "article:mussovye-torty",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:soggy-layers",
+    "predicate": "hasCause",
+    "object": "cause:excess-liquid",
+    "confidence": 0.85,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:soggy-layers",
+    "predicate": "solvedBy",
+    "object": "solution:drain",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:soggy-layers",
+    "predicate": "solvedBy",
+    "object": "solution:crumb-coat",
+    "confidence": 0.9,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:soggy-layers",
+    "predicate": "relatedArticle",
+    "object": "article:yagody-v-torte",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "problem:soggy-layers",
+    "predicate": "relatedArticle",
+    "object": "article:kak-hranit-tort",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:chill",
+    "predicate": "usesTechnique",
+    "object": "technique:cooling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:stabilize",
+    "predicate": "usesTechnique",
+    "object": "technique:stabilization",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:crumb-coat",
+    "predicate": "usesTechnique",
+    "object": "technique:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:slow-cooling",
+    "predicate": "usesTechnique",
+    "object": "technique:cooling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:water-bath",
+    "predicate": "usesTechnique",
+    "object": "technique:baking",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:low-speed",
+    "predicate": "usesTechnique",
+    "object": "technique:whipping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:no-open-oven",
+    "predicate": "usesTechnique",
+    "object": "technique:baking",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:fold",
+    "predicate": "usesTechnique",
+    "object": "technique:whipping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:soak",
+    "predicate": "usesTechnique",
+    "object": "technique:soaking",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "solution:temper-ingredients",
+    "predicate": "usesTechnique",
+    "object": "technique:stabilization",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:kak-vyrovnyat-tort",
+    "predicate": "relatedTo",
+    "object": "technique:leveling",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:kak-vyrovnyat-tort",
+    "predicate": "relatedTo",
+    "object": "technique:coating",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:temperirovanie-shokolada",
+    "predicate": "relatedTo",
+    "object": "technique:tempering",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:mussovye-torty",
+    "predicate": "relatedTo",
+    "object": "technique:stabilization",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:kak-prigotovit-biskvit",
+    "predicate": "relatedTo",
+    "object": "technique:baking",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "article:vidy-kremov",
+    "predicate": "relatedTo",
+    "object": "technique:whipping",
+    "confidence": 1.0,
+    "source": "domain"
+  },
+  {
+    "subject": "cream:mascarpone",
+    "predicate": "incompatibleWith",
+    "object": "filling:citrus-curd",
+    "confidence": 0.7,
+    "source": "domain",
+    "note": "Кислый курд может расслоить нежную сырную массу."
+  },
+  {
+    "subject": "cream:chantilly",
+    "predicate": "incompatibleWith",
+    "object": "filling:caramel",
+    "confidence": 0.65,
+    "source": "domain",
+    "note": "Тяжёлая карамель оседает и разрушает взбитую структуру."
+  },
+  {
+    "subject": "filling:citrus-curd",
+    "predicate": "incompatibleWith",
+    "object": "cream:mascarpone",
+    "confidence": 0.7,
+    "source": "domain",
+    "note": "Кислота и нежная сырная масса требуют осторожного баланса."
+  },
+  {
+    "subject": "base:classic-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:sponge",
+    "confidence": 1,
+    "source": "domain"
+  },
+  {
+    "subject": "base:chocolate-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:sponge",
+    "confidence": 1,
+    "source": "domain"
+  },
+  {
+    "subject": "base:carrot-sponge",
+    "predicate": "suitableFor",
+    "object": "goal:sponge",
+    "confidence": 1,
+    "source": "domain"
+  },
+  {
+    "subject": "base:almond-joconde",
+    "predicate": "suitableFor",
+    "object": "goal:sponge",
+    "confidence": 1,
+    "source": "domain"
+  }
+]

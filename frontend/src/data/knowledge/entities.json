@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "base:classic-sponge",
+    "type": "Base",
+    "name": "Классический бисквит",
+    "summary": "Воздушная основа на взбитых яйцах, муке и сахаре.",
+    "aliases": [
+      "бисквит"
+    ],
+    "tags": "бисквит"
+  },
+  {
+    "id": "base:chocolate-sponge",
+    "type": "Base",
+    "name": "Шоколадный бисквит",
+    "summary": "Бисквитная основа с какао, влажная и насыщенная.",
+    "aliases": [
+      "шоколадный бисквит"
+    ],
+    "tags": "шоколад"
+  },
+  {
+    "id": "base:honey-layers",
+    "type": "Base",
+    "name": "Медовые коржи",
+    "summary": "Тонкие коржи на меду, которые пропитываются кремом.",
+    "aliases": [
+      "медовые коржи"
+    ],
+    "tags": "мёд"
+  },
+  {
+    "id": "base:puff-pastry",
+    "type": "Base",
+    "name": "Слоёное тесто",
+    "summary": "Тонкие слои теста с маслом, дающие хруст.",
+    "aliases": [
+      "слоёное тесто"
+    ],
+    "tags": "слои"
+  },
+  {
+    "id": "base:shortcrust",
+    "type": "Base",
+    "name": "Песочная основа",
+    "summary": "Рассыпчатая основа на сливочном масле.",
+    "aliases": [
+      "песочная основа"
+    ],
+    "tags": "песочное"
+  },
+  {
+    "id": "base:choux",
+    "type": "Base",
+    "name": "Заварное тесто",
+    "summary": "Заварная основа для эклеров, профитролей и «пальчиков».",
+    "aliases": [
+      "заварное тесто"
+    ],
+    "tags": "заварной"
+  },
+  {
+    "id": "base:meringue",
+    "type": "Base",
+    "name": "Безе",
+    "summary": "Взбитые белки с сахаром, высушенные до хруста.",
+    "aliases": [
+      "безе"
+    ],
+    "tags": "меренга"
+  },
+  {
+    "id": "base:cheesecake-base",
+    "type": "Base",
+    "name": "Основа чизкейка",
+    "summary": "Плотная песочная или бисквитная основа для сырной массы.",
+    "aliases": [
+      "основа чизкейка"
+    ],
+    "tags": "чизкейк"
+  },
+  {
+    "id": "base:cookie-base",
+    "type": "Base",
+    "name": "Основа из печенья",
+    "summary": "Основа без выпечки из измельчённого печенья и масла.",
+    "aliases": [
+      "печенье"
+    ],
+    "tags": "без выпечки"
+  },
+  {
+    "id": "base:almond-joconde",
+    "type": "Base",
+    "name": "Миндальный жоконд",
+    "summary": "Тонкий эластичный бисквит на миндальной муке.",
+    "aliases": [
+      "жоконд"
+    ],
+    "tags": "миндальный"
+  },
+  {
+    "id": "base:ladyfingers",
+    "type": "Base",
+    "name": "Савоярди",
+    "summary": "Лёгкое печенье для пропитки и сборки тирамису.",
+    "aliases": [
+      "савоярди"
+    ],
+    "tags": "печенье"
+  },
+  {
+    "id": "base:brownie-base",
+    "type": "Base",
+    "name": "Брауни-основа",
+    "summary": "Плотная шоколадная основа с влажным центром.",
+    "aliases": [
+      "брауни"
+    ],
+    "tags": "шоколад"
+  },
+  {
+    "id": "base:nut-meringue",
+    "type": "Base",
+    "name": "Ореховое безе",
+    "summary": "Хрустящая белково-ореховая основа.",
+    "aliases": [
+      "ореховое безе"
+    ],
+    "tags": "орехи"
+  },
+  {
+    "id": "base:carrot-sponge",
+    "type": "Base",
+    "name": "Морковный бисквит",
+    "summary": "Влажный пряный бисквит с морковью и маслом.",
+    "aliases": [
+      "морковный бисквит"
+    ],
+    "tags": "морковь"
+  },
+  {
+    "id": "cream:cream-cheese",
+    "type": "Cream",
+    "name": "Крем-чиз",
+    "summary": "Плотный крем из сливочного сыра, масла и пудры.",
+    "aliases": [
+      "крем чиз",
+      "крем-чиз",
+      "сливочный сыр"
+    ],
+    "tags": "крем-чиз"
+  },
+  {
+    "id": "cream:buttercream",
+    "type": "Cream",
+    "name": "Масляный крем",
+    "summary": "Пластичный крем на сливочном масле для покрытия и декора.",
+    "aliases": [
+      "масляный крем"
+    ],
+    "tags": "масло"
+  },
+  {
+    "id": "cream:custard",
+    "type": "Cream",
+    "name": "Заварной крем",
+    "summary": "Крем на молоке, желтках и крахмале.",
+    "aliases": [
+      "заварной крем"
+    ],
+    "tags": "заварной"
+  },
+  {
+    "id": "cream:ganache",
+    "type": "Cream",
+    "name": "Ганаш",
+    "summary": "Эмульсия шоколада и сливок для покрытия и начинки.",
+    "aliases": [
+      "ганаш"
+    ],
+    "tags": "шоколад"
+  },
+  {
+    "id": "cream:chantilly",
+    "type": "Cream",
+    "name": "Шантийи",
+    "summary": "Взбитые сливки с пудрой и ванилью.",
+    "aliases": [
+      "взбитые сливки",
+      "сливочный крем"
+    ],
+    "tags": "сливки"
+  },
+  {
+    "id": "cream:mascarpone",
+    "type": "Cream",
+    "name": "Крем на маскарпоне",
+    "summary": "Нежный крем из маскарпоне и сливок.",
+    "aliases": [
+      "маскарпоне"
+    ],
+    "tags": "сыр"
+  },
+  {
+    "id": "cream:meringue-cream",
+    "type": "Cream",
+    "name": "Меренговый крем",
+    "summary": "Крем на основе меренги, лёгкий и стабильный.",
+    "aliases": [
+      "меренговый крем"
+    ],
+    "tags": "меренга"
+  },
+  {
+    "id": "cream:sour-cream",
+    "type": "Cream",
+    "name": "Сметанный крем",
+    "summary": "Крем из густой сметаны и сахарной пудры.",
+    "aliases": [
+      "сметанный крем"
+    ],
+    "tags": "сметана"
+  },
+  {
+    "id": "cream:condensed-cream",
+    "type": "Cream",
+    "name": "Крем на сгущённом молоке",
+    "summary": "Крем из масла и сгущённого молока.",
+    "aliases": [
+      "крем из сгущёнки"
+    ],
+    "tags": "сгущёнка"
+  },
+  {
+    "id": "cream:mousse",
+    "type": "Cream",
+    "name": "Мусс",
+    "summary": "Воздушная стабилизированная масса на основе пюре, шоколада или сливок.",
+    "aliases": [
+      "мусс"
+    ],
+    "tags": "мусс"
+  },
+  {
+    "id": "cream:coffee-cream",
+    "type": "Cream",
+    "name": "Кофейный крем",
+    "summary": "Крем с эспрессо для «Оперы» и кофейных тортов.",
+    "aliases": [
+      "кофейный крем"
+    ],
+    "tags": "кофе"
+  },
+  {
+    "id": "filling:berry",
+    "type": "Filling",
+    "name": "Ягодная начинка",
+    "summary": "Свежие ягоды, пюре или конфи с кислотностью.",
+    "aliases": [
+      "ягодная начинка",
+      "ягоды",
+      "ягодное конфи"
+    ],
+    "tags": "ягоды"
+  },
+  {
+    "id": "filling:cherry",
+    "type": "Filling",
+    "name": "Вишнёвая начинка",
+    "summary": "Вишня без косточек или вишнёвое конфи.",
+    "aliases": [
+      "вишнёвая начинка",
+      "вишня"
+    ],
+    "tags": "вишня"
+  },
+  {
+    "id": "filling:strawberry",
+    "type": "Filling",
+    "name": "Клубничная начинка",
+    "summary": "Свежая клубника или клубничное пюре.",
+    "aliases": [
+      "клубничная начинка",
+      "клубника"
+    ],
+    "tags": "клубника"
+  },
+  {
+    "id": "filling:raspberry",
+    "type": "Filling",
+    "name": "Малиновая начинка",
+    "summary": "Малина и малиновое конфи с яркой кислотностью.",
+    "aliases": [
+      "малиновая начинка",
+      "малина"
+    ],
+    "tags": "малина"
+  },
+  {
+    "id": "filling:citrus-curd",
+    "type": "Filling",
+    "name": "Лимонный курд",
+    "summary": "Кислый заварной крем из лимонов, яиц и масла.",
+    "aliases": [
+      "лимонный курд",
+      "курд"
+    ],
+    "tags": "лимон"
+  },
+  {
+    "id": "filling:caramel",
+    "type": "Filling",
+    "name": "Карамельная начинка",
+    "summary": "Карамель или солёная карамель.",
+    "aliases": [
+      "карамельная начинка",
+      "карамель"
+    ],
+    "tags": "карамель"
+  },
+  {
+    "id": "filling:chocolate",
+    "type": "Filling",
+    "name": "Шоколадная начинка",
+    "summary": "Ганаш или шоколадный крем внутри торта.",
+    "aliases": [
+      "шоколадная начинка",
+      "шоколад"
+    ],
+    "tags": "шоколад"
+  },
+  {
+    "id": "filling:nut",
+    "type": "Filling",
+    "name": "Ореховая начинка",
+    "summary": "Пралине, ореховая паста или рубленые орехи.",
+    "aliases": [
+      "ореховая начинка",
+      "орехи",
+      "пралине"
+    ],
+    "tags": "орехи"
+  },
+  {
+    "id": "filling:banana",
+    "type": "Filling",
+    "name": "Банановая начинка",
+    "summary": "Спелые бананы в креме или прослойке.",
+    "aliases": [
+      "банановая начинка",
+      "банан"
+    ],
+    "tags": "банан"
+  },
+  {
+    "id": "filling:apricot",
+    "type": "Filling",
+    "name": "Абрикосовая начинка",
+    "summary": "Абрикосовый джем или конфитюр.",
+    "aliases": [
+      "абрикосовая начинка",
+      "абрикос"
+    ],
+    "tags": "абрикос"
+  },
+  {
+    "id": "technique:baking",
+    "type": "Technique",
+    "name": "Выпечка",
+    "summary": "Тепловая обработка теста в духовке.",
+    "aliases": [],
+    "tags": "духовка"
+  },
+  {
+    "id": "technique:cooling",
+    "type": "Technique",
+    "name": "Охлаждение",
+    "summary": "Стабилизация изделия при пониженной температуре.",
+    "aliases": [],
+    "tags": "холодильник"
+  },
+  {
+    "id": "technique:soaking",
+    "type": "Technique",
+    "name": "Пропитка",
+    "summary": "Насыщение коржей сиропом для сочности.",
+    "aliases": [],
+    "tags": "сироп"
+  },
+  {
+    "id": "technique:assembly",
+    "type": "Technique",
+    "name": "Сборка",
+    "summary": "Соединение коржей, крема и начинки в конструкцию.",
+    "aliases": [],
+    "tags": "сборка"
+  },
+  {
+    "id": "technique:stabilization",
+    "type": "Technique",
+    "name": "Стабилизация",
+    "summary": "Удержание формы крема или начинки желатином, агаром или охлаждением.",
+    "aliases": [],
+    "tags": "желатин;агар"
+  },
+  {
+    "id": "technique:leveling",
+    "type": "Technique",
+    "name": "Выравнивание",
+    "summary": "Создание гладкой поверхности торта шпателем.",
+    "aliases": [],
+    "tags": "шпатель"
+  },
+  {
+    "id": "technique:coating",
+    "type": "Technique",
+    "name": "Покрытие",
+    "summary": "Нанесение финишного слоя крема или глазури.",
+    "aliases": [],
+    "tags": "покрытие"
+  },
+  {
+    "id": "technique:glazing",
+    "type": "Technique",
+    "name": "Глазирование",
+    "summary": "Заливка торта глазурью для глянцевой поверхности.",
+    "aliases": [],
+    "tags": "глазурь"
+  },
+  {
+    "id": "technique:tempering",
+    "type": "Technique",
+    "name": "Темперирование шоколада",
+    "summary": "Стабилизация какао-масла для глянца и хруста.",
+    "aliases": [],
+    "tags": "шоколад"
+  },
+  {
+    "id": "technique:whipping",
+    "type": "Technique",
+    "name": "Взбивание",
+    "summary": "Насыщение массы воздухом.",
+    "aliases": [],
+    "tags": "венчик"
+  },
+  {
+    "id": "eq:scale",
+    "type": "Equipment",
+    "name": "Кухонные весы",
+    "summary": "Точное взвешивание ингредиентов.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "eq:thermometer",
+    "type": "Equipment",
+    "name": "Кондитерский термометр",
+    "summary": "Контроль температуры сиропов, шоколада и крема.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "eq:spatula",
+    "type": "Equipment",
+    "name": "Шпатель",
+    "summary": "Выравнивание и распределение крема.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "eq:ring",
+    "type": "Equipment",
+    "name": "Разъёмное кольцо",
+    "summary": "Форма для сборки торта.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "eq:piping-bag",
+    "type": "Equipment",
+    "name": "Кондитерский мешок",
+    "summary": "Точное отсаживание крема и теста.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "eq:mixer",
+    "type": "Equipment",
+    "name": "Миксер",
+    "summary": "Взбивание яиц, белков и сливок.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:airy",
+    "type": "Texture",
+    "name": "Воздушная",
+    "summary": "Насыщена воздухом, лёгкая.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:moist",
+    "type": "Texture",
+    "name": "Влажная",
+    "summary": "Сочная, не сухая.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:dense",
+    "type": "Texture",
+    "name": "Плотная",
+    "summary": "Плотная и насыщенная.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:creamy",
+    "type": "Texture",
+    "name": "Кремовая",
+    "summary": "Гладкая и сливочная.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:crispy",
+    "type": "Texture",
+    "name": "Хрустящая",
+    "summary": "Даёт хруст.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:crumbly",
+    "type": "Texture",
+    "name": "Рассыпчатая",
+    "summary": "Крошится при нарезке.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:layered",
+    "type": "Texture",
+    "name": "Слоистая",
+    "summary": "Состоит из выраженных слоёв.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:stable",
+    "type": "Texture",
+    "name": "Стабильная",
+    "summary": "Держит форму.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "texture:soft",
+    "type": "Texture",
+    "name": "Мягкая",
+    "summary": "Нежная, легко деформируется.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:chocolate",
+    "type": "Flavor",
+    "name": "Шоколадный",
+    "summary": "Вкус какао и шоколада.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:vanilla",
+    "type": "Flavor",
+    "name": "Ванильный",
+    "summary": "Сливочный ванильный профиль.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:honey",
+    "type": "Flavor",
+    "name": "Медовый",
+    "summary": "Тёплый пряный медовый вкус.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:caramel",
+    "type": "Flavor",
+    "name": "Карамельный",
+    "summary": "Жжёный сахар и сливочная карамель.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:coffee",
+    "type": "Flavor",
+    "name": "Кофейный",
+    "summary": "Эспрессо и жареные зёрна.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:citrus",
+    "type": "Flavor",
+    "name": "Цитрусовый",
+    "summary": "Лимон, апельсин, цедра.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:nut",
+    "type": "Flavor",
+    "name": "Ореховый",
+    "summary": "Грецкий орех, миндаль, пралине.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:berry",
+    "type": "Flavor",
+    "name": "Ягодный",
+    "summary": "Кисло-сладкий ягодный профиль.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:pistachio",
+    "type": "Flavor",
+    "name": "Фисташковый",
+    "summary": "Ореховая фисташка.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "flavor:banana",
+    "type": "Flavor",
+    "name": "Банановый",
+    "summary": "Сладкий банан.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:chocolate",
+    "type": "Decoration",
+    "name": "Шоколадный декор",
+    "summary": "Стружка, завитки, глазурь.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:berries",
+    "type": "Decoration",
+    "name": "Свежие ягоды",
+    "summary": "Клубника, малина, смородина.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:nuts",
+    "type": "Decoration",
+    "name": "Ореховая крошка",
+    "summary": "Обжаренные и рубленые орехи.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:cocoa",
+    "type": "Decoration",
+    "name": "Какао",
+    "summary": "Пудра и какао-напыление.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:cream",
+    "type": "Decoration",
+    "name": "Кремовый декор",
+    "summary": "Розетки, бордюры, цветы.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "decor:caramel",
+    "type": "Decoration",
+    "name": "Карамель",
+    "summary": "Карамельные элементы и соус.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "problem:sunken-sponge",
+    "type": "Problem",
+    "name": "Оседание бисквита",
+    "summary": "Корж поднялся, а затем осел и потерял воздушность.",
+    "aliases": [
+      "осел бисквит",
+      "оседает бисквит",
+      "просел бисквит",
+      "опадает бисквит"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:dry-sponge",
+    "type": "Problem",
+    "name": "Сухой бисквит",
+    "summary": "Корж получился сухим и крошится.",
+    "aliases": [
+      "сухой бисквит"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:liquid-cream",
+    "type": "Problem",
+    "name": "Жидкий крем",
+    "summary": "Крем не держит форму и стекает.",
+    "aliases": [
+      "жидкий крем",
+      "крем не держит форму",
+      "крем не держится",
+      "крем потёк"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:split-cream",
+    "type": "Problem",
+    "name": "Расслоение крема",
+    "summary": "Крем распался на жир и жидкость.",
+    "aliases": [
+      "крем расслоился",
+      "расслоение крема",
+      "крем свернулся"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:cracks-cheesecake",
+    "type": "Problem",
+    "name": "Трещины чизкейка",
+    "summary": "Поверхность чизкейка растрескалась.",
+    "aliases": [
+      "трещины на чизкейке",
+      "чизкейк треснул"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:uneven-surface",
+    "type": "Problem",
+    "name": "Неровная поверхность",
+    "summary": "Не получается гладкая поверхность или ровные края.",
+    "aliases": [
+      "неровная поверхность",
+      "неровные края",
+      "рваные края"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:unstable-filling",
+    "type": "Problem",
+    "name": "Нестабильная начинка",
+    "summary": "Начинка вытекает или не держится в разрезе.",
+    "aliases": [
+      "начинка течёт",
+      "нестабильная начинка",
+      "начинка вытекает"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:mousse-texture",
+    "type": "Problem",
+    "name": "Проблемы с муссом",
+    "summary": "Мусс не держит форму, расслаивается или зернит.",
+    "aliases": [
+      "мусс не держит форму",
+      "мусс расслоился",
+      "мусс зернистый",
+      "мусс осел"
+    ],
+    "tags": []
+  },
+  {
+    "id": "problem:soggy-layers",
+    "type": "Problem",
+    "name": "Промокшие коржи",
+    "summary": "Коржи размокли и потеряли структуру.",
+    "aliases": [
+      "коржи промокли",
+      "торт поплыл",
+      "промокшие коржи"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:chill",
+    "type": "Solution",
+    "name": "Охладить",
+    "summary": "Выдержать крем или торт в холодильнике.",
+    "aliases": [
+      "охладить",
+      "холодильник"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:stabilize",
+    "type": "Solution",
+    "name": "Стабилизировать",
+    "summary": "Ввести желатин, агар или загуститель.",
+    "aliases": [
+      "стабилизация",
+      "желатин",
+      "загуститель"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:drain",
+    "type": "Solution",
+    "name": "Убрать лишнюю влагу",
+    "summary": "Слить сок, промокнуть ягоды, использовать барьер.",
+    "aliases": [
+      "промокнуть",
+      "сцедить",
+      "убрать влагу"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:crumb-coat",
+    "type": "Solution",
+    "name": "Черновой слой",
+    "summary": "Покрыть торт тонким слоем крема и охладить.",
+    "aliases": [
+      "черновой слой",
+      "грунт"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:slow-cooling",
+    "type": "Solution",
+    "name": "Медленное охлаждение",
+    "summary": "Остужать изделие постепенно, не вынимая резко.",
+    "aliases": [
+      "постепенное охлаждение"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:water-bath",
+    "type": "Solution",
+    "name": "Водяная баня",
+    "summary": "Выпекать чизкейк на водяной бане.",
+    "aliases": [
+      "водяная баня"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:low-speed",
+    "type": "Solution",
+    "name": "Низкая скорость",
+    "summary": "Перемешивать крем на минимальной скорости.",
+    "aliases": [
+      "низкая скорость"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:no-open-oven",
+    "type": "Solution",
+    "name": "Не открывать духовку",
+    "summary": "Не прерывать выпечку бисквита.",
+    "aliases": [
+      "не открывать духовку"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:fold",
+    "type": "Solution",
+    "name": "Аккуратно вмешивать",
+    "summary": "Вмешивать сливки или муку складывающими движениями.",
+    "aliases": [
+      "аккуратно вмешивать",
+      "лопаткой"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:soak",
+    "type": "Solution",
+    "name": "Пропитать сиропом",
+    "summary": "Насытить сухой корж сиропом.",
+    "aliases": [
+      "пропитать",
+      "сироп"
+    ],
+    "tags": []
+  },
+  {
+    "id": "solution:temper-ingredients",
+    "type": "Solution",
+    "name": "Температурный баланс",
+    "summary": "Довести ингредиенты до комнатной температуры.",
+    "aliases": [
+      "комнатной температуры",
+      "температура ингредиентов"
+    ],
+    "tags": []
+  },
+  {
+    "id": "cause:temperature",
+    "type": "Cause",
+    "name": "Неподходящая температура",
+    "summary": "Слишком тёплые или холодные ингредиенты разрушают эмульсию.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:overmixing",
+    "type": "Cause",
+    "name": "Перемешивание",
+    "summary": "Длительное или интенсивное перемешивание.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:underbaking",
+    "type": "Cause",
+    "name": "Недопёк",
+    "summary": "Тесто не успело схватиться.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:overbaking",
+    "type": "Cause",
+    "name": "Перепёк",
+    "summary": "Изделие потеряло влагу.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:fast-cooling",
+    "type": "Cause",
+    "name": "Резкое охлаждение",
+    "summary": "Перепад температуры вызвал деформацию.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:excess-liquid",
+    "type": "Cause",
+    "name": "Лишняя влага",
+    "summary": "Сок ягод или жидкость размягчили структуру.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:overwhipping",
+    "type": "Cause",
+    "name": "Перевзбитые сливки",
+    "summary": "Сливки или белки потеряли стабильность.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "cause:insufficient-gelatin",
+    "type": "Cause",
+    "name": "Мало стабилизатора",
+    "summary": "Желатина или агара недостаточно для формы.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:layered-sponge-cake",
+    "type": "CakeType",
+    "name": "Многослойный бисквитный торт",
+    "summary": "Торт из бисквитных коржей с кремом между слоями.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:mousse-cake",
+    "type": "CakeType",
+    "name": "Муссовый торт",
+    "summary": "Торт, форма которого сформирована муссом.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:cheesecake",
+    "type": "CakeType",
+    "name": "Чизкейк",
+    "summary": "Торт на основе сливочного сыра.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:honey-cake",
+    "type": "CakeType",
+    "name": "Медовый торт",
+    "summary": "Торт с медовыми коржами.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:choux-cake",
+    "type": "CakeType",
+    "name": "Заварной торт",
+    "summary": "Торт из заварного теста.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "type:no-bake-cake",
+    "type": "CakeType",
+    "name": "Торт без выпечки",
+    "summary": "Торт, который стабилизируется в холодильнике.",
+    "aliases": [],
+    "tags": []
+  },
+  {
+    "id": "ingredient:ricotta",
+    "type": "Ingredient",
+    "name": "Рикотта",
+    "summary": "Мягкий итальянский сыр как альтернатива сливочному.",
+    "aliases": "альтернатива сливочному сыру",
+    "tags": [
+      "сыр"
+    ]
+  },
+  {
+    "id": "process:mixing",
+    "type": "Process",
+    "name": "Замес и смешивание",
+    "summary": "Соединение ингредиентов до нужной текстуры.",
+    "aliases": [
+      "замес",
+      "смешивание"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "process:baking",
+    "type": "Process",
+    "name": "Выпечка",
+    "summary": "Тепловая обработка теста.",
+    "aliases": [
+      "выпекание"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "process:cooling",
+    "type": "Process",
+    "name": "Охлаждение",
+    "summary": "Стабилизация структуры при низкой температуре.",
+    "aliases": [
+      "остывание"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "process:assembly",
+    "type": "Process",
+    "name": "Сборка",
+    "summary": "Соединение коржей, крема и начинки.",
+    "aliases": [
+      "сборка торта"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "process:leveling",
+    "type": "Process",
+    "name": "Выравнивание поверхности",
+    "summary": "Создание гладкого финишного слоя.",
+    "aliases": [
+      "выравнивание"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "process:glazing",
+    "type": "Process",
+    "name": "Глазирование",
+    "summary": "Нанесение финишной глазури.",
+    "aliases": [
+      "покрытие глазурью"
+    ],
+    "tags": [
+      "процесс"
+    ]
+  },
+  {
+    "id": "news:feed",
+    "type": "News",
+    "name": "Лента кондитерских новостей",
+    "summary": "Динамическая лента материалов из внешних RSS-источников.",
+    "aliases": [
+      "новости",
+      "новость"
+    ],
+    "tags": [
+      "новости"
+    ],
+    "url": "/news"
+  }
+]

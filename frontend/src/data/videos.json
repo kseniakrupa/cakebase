@@ -1,0 +1,348 @@
+[
+  {
+    "id": "v-medovik",
+    "title": "Медовик по столетнему рецепту",
+    "description": "Подробный разбор медового теста: как раскатать коржи, чтобы они не рвались, и собрать торт со сметанным кремом.",
+    "category": "Торты",
+    "tags": [
+      "медовик",
+      "мёд",
+      "слоёный",
+      "сметанный крем",
+      "коржи"
+    ],
+    "thumbnail": "/images/videos/SEMFi7YDA1A.jpg",
+    "url": "https://www.youtube.com/watch?v=SEMFi7YDA1A",
+    "duration": "6:33",
+    "durationSeconds": 393,
+    "channel": "Калнина Наталья",
+    "isDemo": false
+  },
+  {
+    "id": "v-napoleon",
+    "title": "Торт Наполеон: классический рецепт",
+    "description": "Полный процесс приготовления «Наполеона» — от слоёного теста до заварного крема и сборки.",
+    "category": "Торты",
+    "tags": [
+      "наполеон",
+      "слоёное тесто",
+      "заварной крем",
+      "классика"
+    ],
+    "thumbnail": "/images/videos/CdJNUFzfmJU.jpg",
+    "url": "https://www.youtube.com/watch?v=CdJNUFzfmJU",
+    "duration": "16:53",
+    "durationSeconds": 1013,
+    "channel": "Рецепты в гостях у Вани",
+    "isDemo": false
+  },
+  {
+    "id": "v-tiramisu",
+    "title": "Тирамису без сырых яиц",
+    "description": "Домашний тирамису с маскарпоне и эспрессо. Автор показывает безопасную технику приготовления крема.",
+    "category": "Торты",
+    "tags": [
+      "тирамису",
+      "маскарпоне",
+      "кофе",
+      "без выпечки"
+    ],
+    "thumbnail": "/images/videos/vn54khm4ZmU.jpg",
+    "url": "https://www.youtube.com/watch?v=vn54khm4ZmU",
+    "duration": "6:19",
+    "durationSeconds": 379,
+    "channel": "Готовим дома",
+    "isDemo": false
+  },
+  {
+    "id": "v-cheesecake-classic",
+    "title": "Classic Cheesecake: базовый чизкейк",
+    "description": "Англоязычный урок по классическому чизкейку: песочная основа, сливочная начинка и водяная баня.",
+    "category": "Торты",
+    "tags": [
+      "чизкейк",
+      "сливочный сыр",
+      "водяная баня",
+      "cheesecake"
+    ],
+    "thumbnail": "/images/videos/tpsywnPNDsw.jpg",
+    "url": "https://www.youtube.com/watch?v=tpsywnPNDsw",
+    "duration": "9:31",
+    "durationSeconds": 571,
+    "channel": "Preppy Kitchen",
+    "isDemo": false
+  },
+  {
+    "id": "v-red-velvet",
+    "title": "Красный бархат за 30 минут",
+    "description": "Быстрый вариант «Красного бархата» с крем-чизом: коржи, краситель и сборка.",
+    "category": "Торты",
+    "tags": [
+      "красный бархат",
+      "крем-чиз",
+      "какао",
+      "red velvet"
+    ],
+    "thumbnail": "/images/videos/Ij6Gcv9h0pA.jpg",
+    "url": "https://www.youtube.com/watch?v=Ij6Gcv9h0pA",
+    "duration": "10:32",
+    "durationSeconds": 632,
+    "channel": "Кулинарим с Таней",
+    "isDemo": false
+  },
+  {
+    "id": "v-triple-chocolate",
+    "title": "Муссовый торт «Три шоколада»",
+    "description": "Три слоя мусса на тёмном, молочном и белом шоколаде. Показана работа с желатином и сборка в кольце.",
+    "category": "Муссовые десерты",
+    "tags": [
+      "три шоколада",
+      "мусс",
+      "шоколад",
+      "слои"
+    ],
+    "thumbnail": "/images/videos/9mwPIq96UEs.jpg",
+    "url": "https://www.youtube.com/watch?v=9mwPIq96UEs",
+    "duration": "10:02",
+    "durationSeconds": 602,
+    "channel": "Yuliya Small",
+    "isDemo": false
+  },
+  {
+    "id": "v-pavlova",
+    "title": "Десерт «Павлова»: правильный рецепт",
+    "description": "Шеф-кондитер разбирает меренгу, стабильность безе и сборку павловой со сливками и ягодами.",
+    "category": "Торты",
+    "tags": [
+      "павлова",
+      "безе",
+      "меренга",
+      "ягоды"
+    ],
+    "thumbnail": "/images/videos/ZtDw5mFFVyI.jpg",
+    "url": "https://www.youtube.com/watch?v=ZtDw5mFFVyI",
+    "duration": "13:44",
+    "durationSeconds": 824,
+    "channel": "ВкусВилл",
+    "isDemo": false
+  },
+  {
+    "id": "v-ganache",
+    "title": "Идеальный шоколадный ганаш за 5 минут",
+    "description": "Пропорции, температура и техника эмульсии для гладкого шоколадного покрытия.",
+    "category": "Кремы",
+    "tags": [
+      "ганаш",
+      "шоколад",
+      "глазурь",
+      "выравнивание"
+    ],
+    "thumbnail": "/images/videos/gxZTeGdGJvc.jpg",
+    "url": "https://www.youtube.com/watch?v=gxZTeGdGJvc",
+    "duration": "4:46",
+    "durationSeconds": 286,
+    "channel": "КЕЙКО | Кондитерская онлайн-школа",
+    "isDemo": false
+  },
+  {
+    "id": "v-cream-cheese-leveling",
+    "title": "Крем-чиз для выравнивания торта",
+    "description": "Рецепт стабильного крема на сливках и техника выравнивания поверхности.",
+    "category": "Кремы",
+    "tags": [
+      "крем-чиз",
+      "выравнивание",
+      "сливки",
+      "декор"
+    ],
+    "thumbnail": "/images/videos/v0bUaAt1so4.jpg",
+    "url": "https://www.youtube.com/watch?v=v0bUaAt1so4",
+    "duration": "7:30",
+    "durationSeconds": 450,
+    "channel": "Люба Кузьмичева",
+    "isDemo": false
+  },
+  {
+    "id": "v-mousse-black-forest",
+    "title": "Муссовый «Чёрный лес»",
+    "description": "Современная муссовая интерпретация шварцвальдского торта: вишня, шоколад и зеркальная глазурь.",
+    "category": "Муссовые десерты",
+    "tags": [
+      "чёрный лес",
+      "мусс",
+      "вишня",
+      "зеркальная глазурь"
+    ],
+    "thumbnail": "/images/videos/1ke3iq52d-w.jpg",
+    "url": "https://www.youtube.com/watch?v=1ke3iq52d-w",
+    "duration": "11:17",
+    "durationSeconds": 677,
+    "channel": "Yuliya Small",
+    "isDemo": false
+  },
+  {
+    "id": "v-biskvit",
+    "title": "Бисквит из четырёх яиц: разбор техники",
+    "description": "Как взбить яйца, вмешать муку и получить ровный бисквит высотой 10 см.",
+    "category": "Техники",
+    "tags": [
+      "бисквит",
+      "яйца",
+      "выпечка",
+      "коржи"
+    ],
+    "thumbnail": "/images/videos/P1zFgZ1j68I.jpg",
+    "url": "https://www.youtube.com/watch?v=P1zFgZ1j68I",
+    "duration": "12:02",
+    "durationSeconds": 722,
+    "channel": "Екатерина Савкина",
+    "isDemo": false
+  },
+  {
+    "id": "v-cake-decoration",
+    "title": "Оформление бисквитного торта с заварным кремом",
+    "description": "Практический урок по сборке и декору торта: выравнивание, кремовые бордюры и финальные акценты.",
+    "category": "Декор",
+    "tags": [
+      "декор",
+      "оформление",
+      "заварной крем",
+      "бисквит"
+    ],
+    "thumbnail": "/images/videos/xxgsLHmpjZw.jpg",
+    "url": "https://www.youtube.com/watch?v=xxgsLHmpjZw",
+    "duration": "9:48",
+    "durationSeconds": 588,
+    "channel": "Елена Авдеева",
+    "isDemo": false
+  },
+  {
+    "id": "v-san-sebastian",
+    "title": "Чизкейк Сан-Себастьян",
+    "description": "Испанский чизкейк с карамельной корочкой: пропорции и особенности выпечки при высокой температуре.",
+    "category": "Торты",
+    "tags": [
+      "чизкейк",
+      "сан-себастьян",
+      "карамель",
+      "испанский"
+    ],
+    "thumbnail": "/images/videos/nof5t_TRRCQ.jpg",
+    "url": "https://www.youtube.com/watch?v=nof5t_TRRCQ",
+    "duration": "6:27",
+    "durationSeconds": 387,
+    "channel": "ВкусВилл",
+    "isDemo": false
+  },
+  {
+    "id": "v-no-bake-oreo",
+    "title": "Чизкейк Орео без выпечки",
+    "description": "Холодный чизкейк на основе печенья с кремом из сливочного сыра. Пошаговый рецепт без духовки.",
+    "category": "Торты",
+    "tags": [
+      "чизкейк",
+      "без выпечки",
+      "орео",
+      "желатин"
+    ],
+    "thumbnail": "/images/videos/PPfD5iXmmec.jpg",
+    "url": "https://www.youtube.com/watch?v=PPfD5iXmmec",
+    "duration": "9:48",
+    "durationSeconds": 588,
+    "channel": "Люба Кузьмичева",
+    "isDemo": false
+  },
+  {
+    "id": "v-bird-milk",
+    "title": "«Птичье молоко»: классический рецепт",
+    "description": "Подробная техника суфле на агаре, приготовление коржа и шоколадной глазури.",
+    "category": "Торты",
+    "tags": [
+      "птичье молоко",
+      "суфле",
+      "агар",
+      "шоколад"
+    ],
+    "thumbnail": "/images/videos/43rzka9lGiU.jpg",
+    "url": "https://www.youtube.com/watch?v=43rzka9lGiU",
+    "duration": "15:51",
+    "durationSeconds": 951,
+    "channel": "Готовим с Ириной Хлебниковой",
+    "isDemo": false
+  },
+  {
+    "id": "v-grafskie-razvaliny",
+    "title": "Хрустящий торт «Графские развалины»",
+    "description": "Безе, песочные коржи и крем в домашнем торте, который тает во рту. Пошаговый рецепт от автора канала.",
+    "category": "Торты",
+    "tags": [
+      "графские развалины",
+      "безе",
+      "меренга",
+      "песочный",
+      "крем"
+    ],
+    "thumbnail": "/images/videos/0SBvbpzoAHU.jpg",
+    "url": "https://www.youtube.com/watch?v=0SBvbpzoAHU",
+    "duration": "8:35",
+    "durationSeconds": 515,
+    "channel": "Курдская невестка",
+    "isDemo": false
+  },
+  {
+    "id": "v-damskie-palchiki",
+    "title": "Торт «Дамские пальчики»: самый нежный",
+    "description": "Заварные «пальчики» и сметанный крем — простой домашний торт из доступных продуктов.",
+    "category": "Торты",
+    "tags": [
+      "дамские пальчики",
+      "заварное тесто",
+      "сметанный крем",
+      "эклеры"
+    ],
+    "thumbnail": "/images/videos/usEdvEX8URk.jpg",
+    "url": "https://www.youtube.com/watch?v=usEdvEX8URk",
+    "duration": "2:51",
+    "durationSeconds": 171,
+    "channel": "ВІКА — Простые Рецепты",
+    "isDemo": false
+  },
+  {
+    "id": "v-cherepakha",
+    "title": "Торт «Черепаха» с шоколадной глазурью",
+    "description": "Домашний торт «Черепаха» с нежным кремом и шоколадной глазурью. Пошаговое приготовление.",
+    "category": "Торты",
+    "tags": [
+      "черепаха",
+      "без выпечки",
+      "шоколад",
+      "глазурь",
+      "домашний"
+    ],
+    "thumbnail": "/images/videos/uDfUj6luzY4.jpg",
+    "url": "https://www.youtube.com/watch?v=uDfUj6luzY4",
+    "duration": "9:37",
+    "durationSeconds": 577,
+    "channel": "Мамина Помічниця",
+    "isDemo": false
+  },
+  {
+    "id": "v-zebra",
+    "title": "Zebra Cake: полосатый бисквит",
+    "description": "Англоязычный урок по полосатому бисквиту: как чередовать тесто и получить ровный рисунок в разрезе.",
+    "category": "Торты",
+    "tags": [
+      "зебра",
+      "бисквит",
+      "какао",
+      "полосы",
+      "zebra cake"
+    ],
+    "thumbnail": "/images/videos/1GNv5cSJWAU.jpg",
+    "url": "https://www.youtube.com/watch?v=1GNv5cSJWAU",
+    "duration": "10:05",
+    "durationSeconds": 605,
+    "channel": "Preppy Kitchen",
+    "isDemo": false
+  }
+]
